@@ -1,1 +1,1 @@
-# leetcode
+# leetcode problems solved by me, using mostly javascript, lately python and typescript.
