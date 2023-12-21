@@ -27,3 +27,6 @@ var maxWidthOfVerticalArea = function (points) {
 
 // console.log(maxWidthOfVerticalArea([[3, 1], [9, 0], [1, 0], [1, 4], [5, 3], [8, 8]]))
 console.log(maxWidthOfVerticalArea([[2, 4], [10, 10], [6, 8], [6, 8], [6, 10], [8, 6], [5, 3]]))
+
+// time complexity: O(nlogn)
+// space complexity:  O(n)
