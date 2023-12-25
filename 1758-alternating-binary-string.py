@@ -28,4 +28,4 @@ class Solution:
 
 s = Solution()
 
-print(s.minOperations("0100"))  # Print the final result
+print(s.minOperations("1111"))  # Print the final result
