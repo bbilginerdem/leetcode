@@ -4,12 +4,12 @@ class Solution(object):
         :type arr: List[int]
         :rtype: bool
         """
-        set = {}
+        counts = dict()
         for num in arr:
-            set[num] = arr.count(num)
+            counts[num] = arr.count(num)
 
-        len_counts = len(set.values())
-        values_set = set(set.values())
+        len_counts = len(counts.values())
+        values_set = set(counts.values())
         len_values_set = len(values_set)
 
         if len_counts == len_values_set:
