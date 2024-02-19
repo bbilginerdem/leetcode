@@ -1,5 +1,6 @@
 class Solution:
-    def numDecodings(self, s: str) -> int:
+
+    def num_decodings(self, s: str) -> int:
         if s[0] == 0:
             return 0
 

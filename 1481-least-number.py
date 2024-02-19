@@ -2,7 +2,7 @@ import collections
 
 
 class Solution(object):
-    def findLeastNumOfUniqueInts(self, arr, k):
+    def find_least_num_of_unique_ints(self, arr, k):
         """
         :type arr: List[int]
         :type k: int
